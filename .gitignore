@@ -70,3 +70,4 @@ Thumbs.db
 # =========================================
 !web/sites/default/files/.gitkeep
 !config/sync/.gitkeep
+/web/sites/default/settings.ddev.php
