@@ -1,0 +1,72 @@
+# =========================================
+# Drupal core / Composer-based project
+# =========================================
+
+# Ignore sensitive or environment-specific files
+/web/sites/*/settings.php
+/web/sites/*/settings.local.php
+/web/sites/*/services.yml
+/web/sites/*/services.local.yml
+/web/sites/*/files
+/private
+/config/local
+/config/dev
+
+# =========================================
+# Ignore generated and temporary files
+# =========================================
+/web/core
+/web/modules/contrib
+/web/themes/contrib
+/web/profiles/contrib
+/vendor
+/web/libraries
+/web/sites/simpletest
+/web/sites/*/translations
+/web/sites/*/tmp
+/web/sites/*/cache
+
+# =========================================
+# Ignore system and IDE files
+# =========================================
+*.log
+*.sql
+*.sqlite
+*.tar.gz
+*.zip
+*.bak
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =========================================
+# Ignore node_modules if you use frontend tools
+# =========================================
+/node_modules
+/package-lock.json
+/yarn.lock
+/pnpm-lock.yaml
+
+# =========================================
+# Config and local files
+# =========================================
+/config/sync/*.bak
+/config/sync/*.tmp
+/config/sync/.htaccess
+/.env
+/.idea/
+/.vscode/
+# /.gitignore
+/.lando.yml
+/.ddev/.downloads
+/.ddev/.import
+/.ddev/db_snapshots
+/.ddev/.global_commands
+
+# =========================================
+# Keep important directories but ignore contents
+# =========================================
+!web/sites/default/files/.gitkeep
+!config/sync/.gitkeep
