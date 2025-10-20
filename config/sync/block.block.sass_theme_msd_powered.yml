@@ -1,6 +1,6 @@
 uuid: 747d8855-bcce-40a6-b294-f96223a41d64
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: sass_theme_msd_powered
 theme: sass_theme_msd
 region: menubar
-weight: 0
+weight: -1
 provider: null
 plugin: system_powered_by_block
 settings:

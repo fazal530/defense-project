@@ -1,0 +1,21 @@
+uuid: c84fa86a-95b8-4330-bd08-363649ae62b3
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - sass_theme_msd
+id: sass_theme_msd_searchform
+theme: sass_theme_msd
+region: menubar
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }

@@ -1,6 +1,6 @@
 uuid: 69adee93-e98b-4d9f-8e43-1951784dd011
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - sass_theme_msd
@@ -9,7 +9,7 @@ _core:
 id: sass_theme_msd_page_title
 theme: sass_theme_msd
 region: menubar
-weight: -5
+weight: -2
 provider: null
 plugin: page_title_block
 settings:

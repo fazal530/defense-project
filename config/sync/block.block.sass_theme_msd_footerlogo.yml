@@ -1,0 +1,25 @@
+uuid: 03cd40dd-5d7d-4f3e-b53f-ad1d685c4a02
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:9d0179f5-aceb-408f-8f49-63ca4af656b9'
+  module:
+    - block_content
+  theme:
+    - sass_theme_msd
+id: sass_theme_msd_footerlogo
+theme: sass_theme_msd
+region: footer_fifth
+weight: -7
+provider: null
+plugin: 'block_content:9d0179f5-aceb-408f-8f49-63ca4af656b9'
+settings:
+  id: 'block_content:9d0179f5-aceb-408f-8f49-63ca4af656b9'
+  label: 'Footer Logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,30 @@
+.copywrite-with-logo {
+    padding-block: 50px 25px;
+    @extend .container;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    #block-sass-theme-msd-copyright {
+        p{
+            @extend .body2;
+            span{
+                font-weight: 600;
+            }
+        }
+        p.para{
+            padding-block: 8px 16px;
+        }
+
+    }
+
+    #block-sass-theme-msd-footerlogo {
+        .logo-icon-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            .footer-logo {}
+
+            .footer-icon {}
+        }
+    }
+}

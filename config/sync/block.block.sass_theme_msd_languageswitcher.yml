@@ -1,0 +1,20 @@
+uuid: 435ba3c8-82ca-4ff0-b750-aea6f71f1d24
+langcode: en
+status: false
+dependencies:
+  module:
+    - language
+  theme:
+    - sass_theme_msd
+id: sass_theme_msd_languageswitcher
+theme: sass_theme_msd
+region: menubar
+weight: -4
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }
