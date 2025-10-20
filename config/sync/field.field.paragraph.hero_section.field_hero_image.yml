@@ -1,0 +1,31 @@
+uuid: 602117a6-b36f-4583-916d-4f0940042478
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hero_image
+    - media.type.image
+    - media.type.video
+    - paragraphs.paragraphs_type.hero_section
+id: paragraph.hero_section.field_hero_image
+field_name: field_hero_image
+entity_type: paragraph
+bundle: hero_section
+label: 'Hero image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+      video: video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference
