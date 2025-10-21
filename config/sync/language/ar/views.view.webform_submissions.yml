@@ -11,8 +11,6 @@ display:
       pager:
         options:
           tags:
-            previous: ‹‹
-            next: ››
             first: '« الأولى'
             last: 'الأخيرة »'
           expose:
@@ -20,17 +18,12 @@ display:
             items_per_page_options_all_label: '- الكل -'
             offset_label: الإزاحة
       fields:
-        sid:
-          separator: ', '
         in_draft:
           label: مسودة
-          separator: ', '
         created:
           label: الإنشاء
-          separator: ', '
         remote_addr:
           label: 'عنوان الـIP'
-          separator: ', '
         view_webform_submission:
           label: عمليات
           text: عرض
@@ -46,26 +39,18 @@ display:
       fields:
         webform_submission_bulk_form:
           action_title: إجراء
-        sid:
-          separator: ', '
         in_draft:
           label: مسودة
-          separator: ', '
         sticky:
           label: مثبت
-          separator: ', '
         locked:
           label: مقفل
-          separator: ', '
         created:
           label: الإنشاء
-          separator: ', '
         completed:
           label: 'تم الإنهاء'
-          separator: ', '
         remote_addr:
           label: 'عنوان الـIP'
-          separator: ', '
         operations:
           label: عمليات
       filters:
@@ -80,26 +65,18 @@ display:
       fields:
         webform_submission_bulk_form:
           action_title: إجراء
-        sid:
-          separator: ', '
         in_draft:
           label: مسودة
-          separator: ', '
         sticky:
           label: مثبت
-          separator: ', '
         locked:
           label: مقفل
-          separator: ', '
         created:
           label: الإنشاء
-          separator: ', '
         completed:
           label: 'تم الإنهاء'
-          separator: ', '
         remote_addr:
           label: 'عنوان الـIP'
-          separator: ', '
         view_webform_submission:
           label: عمليات
           text: عرض
@@ -116,26 +93,18 @@ display:
   embed_review:
     display_options:
       fields:
-        sid:
-          separator: ', '
         in_draft:
           label: مسودة
-          separator: ', '
         sticky:
           label: مثبت
-          separator: ', '
         locked:
           label: مقفل
-          separator: ', '
         created:
           label: الإنشاء
-          separator: ', '
         completed:
           label: 'تم الإنهاء'
-          separator: ', '
         remote_addr:
           label: 'عنوان الـIP'
-          separator: ', '
         view_webform_submission:
           label: عمليات
           text: عرض
