@@ -18,12 +18,12 @@ content:
     type: file_video
     label: visually_hidden
     settings:
-      controls: false
-      autoplay: true
-      loop: true
+      controls: true
+      autoplay: false
+      loop: false
       multiple_file_display_type: tags
-      muted: true
-      playsinline: true
+      muted: false
+      playsinline: false
       width: 640
       height: 480
     third_party_settings: {  }

@@ -15,7 +15,7 @@ bundle: hero_section
 label: 'hero section body'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

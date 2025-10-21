@@ -9,6 +9,9 @@ display:
           action_title: إجراء
       pager:
         options:
+          tags:
+            next: ››
+            previous: ‹‹
           expose:
             items_per_page_label: 'العناصر لكل صفحة'
             items_per_page_options_all_label: '- الكل -'
@@ -56,6 +59,8 @@ display:
       fields:
         media_bulk_form:
           action_title: إجراء
+        name:
+          separator: ', '
         edit_media:
           alter:
             text: 'تحرير {{ name }}'
