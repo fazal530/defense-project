@@ -21,7 +21,6 @@ module:
   ctools: 0
   ctools_block: 0
   ctools_views: 0
-  darkmode: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
@@ -48,6 +47,7 @@ module:
   paragraphs_asymmetric_translation_widgets: 0
   path: 0
   path_alias: 0
+  recreate_block_content: 0
   search: 0
   shortcut: 0
   superfish: 0
