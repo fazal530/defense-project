@@ -17,6 +17,9 @@
         position: absolute;
         top: 30%;
         left: 0;
+        [dir="rtl"] &{
+            right: 0;
+        }
 
         h1 {
             color: $white;

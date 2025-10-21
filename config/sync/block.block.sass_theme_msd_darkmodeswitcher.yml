@@ -1,6 +1,6 @@
 uuid: de2ec79b-fd47-4169-a0e1-5d71ae90c728
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - darkmode

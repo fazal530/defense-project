@@ -493,6 +493,9 @@ body {
   top: 30%;
   left: 0;
 }
+[dir=rtl] .hero-section-wrapper .hero-section-content {
+  right: 0;
+}
 .hero-section-wrapper .hero-section-content h1 {
   color: #fff;
   padding-bottom: 40px;
